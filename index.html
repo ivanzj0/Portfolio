@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Personal</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/6f2cd78f0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="inicio">
         <nav class="indice">
             <a href="#inicio">Inicio</a>
-            <a href="">Sobre mí</a>
-            <a href="">Resumen</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#resumen">Resumen</a>
             <a href="">Experiencia</a>
             <a href="">Contáctame</a>
         </nav>
@@ -23,70 +25,103 @@
                 <h2>Ivan Zirulnik</h2>
                 <h4>Estudiante Ingenieria en Sistemas</h4>
                 <nav>
-                    <a href="">Resumen</a>
-                    <a href="">Proyectos</a>
-                    <a href="">Cantrátame</a>
+                    <div class="botones-arriba">
+                        <a href="#resumen">Resumen</a>
+                        <a href="#proyectos">Proyectos</a>
+                    </div>
+                    <div class="contratame">
+                        <a>Contrátame</a>   
+                    </div> 
                 </nav>
             </article>
         </section>
-        <!-- TERMINA LA PARTE PRINCIPAL -->
-        <section>
+        <!-- FINALIZA LA PARTE PRINCIPAL -->
+        <section id="sobre-mi">
             <h1>Sobre mi</h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias excepturi quis sint dolores rerum accusamus natus porro laboriosam commodi, ratione aut laborum, sequi dolor voluptas nobis eligendi atque necessitatibus?</P>
-            <img src="" alt="">
-            <button>casa</button>
+            <article class="info">
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias excepturi quis sint dolores rerum accusamus natus porro laboriosam commodi, ratione aut laborum, sequi dolor voluptas nobis eligendi atque necessitatibus?</P>
+            <img class="foto-sobre-mi" src="img/foto-sobre-mi.jpeg" alt="">
+            </article>
+            <a href="#inicio" class="casa">
+                <i class="bi bi-house-door"></i>
+            </a>
         </section>
-        <section>
+
+        <!-- FINALIZA ESPACIO SOBRE MI-->
+
+        <section id="resumen">
             <h1>Resumen</h1>
-            <article>
-                <h5>Tools</h5>
-                <ul>
-                    <li><img src="" alt=""> Figma</li>
-                    <li><img src="" alt="">Photoshop</li>
-                    <li><img src="" alt="">Ilustrator</li>
-                    <li><img src="" alt="">Balsamiq</li>
-                    <li><img src="" alt="">Excel</li>
-                </ul>
-                <h5>Languages</h5>
-                <ul>
-                    <li>English</li>
-                    <li>Español</li>
-                </ul>
-                <button>Casa</button>
-            </article>
-            <article>
-                <h5>Skills</h5>
-                <ul>
-                    <li>User Research</li>
-                    <li>Usability Testing</li>
-                    <li>WireFraming</li>
-                    <li>Prototyping</li>
-                    <li>Information Architecture</li>
-                    <li>Interaction Design</li>
-                </ul>
-                <h5>Education</h5>
-                <p>UXUI Design<br><span>School of Techies</span></p>
-                <p>Bachelor of Computer Applications<br><span>Kongu arts and science college Erode</span></p>
-                <p>Grade 12<br><span>Sri Ramakrishna Matriculation & Hr.sec.school Tiruppur</span></p>
-            </article>
-            <article>
-                <h5>What Can I Do?</h5>
-                <p>Logo, Web Application, Mobile Application</p>
-            </article>
+            <section class="central">
+                <article class="seccion">
+                    <div class="subseccion">
+                        <h3>Especializaciones</h3>
+                    <ul>
+                        <li><img class="icono" src="img/c++.png" alt=""> c++</li>
+                        <li><img class="icono" src="img/css.png" alt=""> Css</li>
+                        <li><img class="icono" src="img/html.png" alt=""> HTML</li>
+                        <li><img class="icono" src="img/javascript.jpeg" alt=""> Javascript</li>
+                        <li><img class="icono" src="img/git.png" alt=""> Git</li>
+                    </ul>
+                    </div>
+                    <div class="subseccion medio ">
+                            <h3>Habilidades</h3>
+                        <ul>
+                            <li>Desarrollo Backend</li>
+                            <li>Desarrollo Frontend</li>
+                            <li>Resolución de Problemas</li>
+                            <li>Optimizzación en el código</li>
+                            <li>Desarrollo ágil</li>
+                            <li>Trabajo en equipo</li>
+                        </ul>
+                    </div>
+                    <div class="subseccion">
+                        <h3>¿Que puedo Hacer?</h3>
+                        <p>Desarrollo de aplicaciones Web, Diseño Web, Desarrollo de Sistemas de Informacion</p>
+                    </div>
+                    
+                </article>
+                <article class="seccion lenguajes">
+                    <div class="subseccion">
+                            <h3 class="espacio">Lenguajes</h3>
+                        <ul>
+                            <li>English</li>
+                            <li>Español</li>
+                            <a href="#inicio" class="casa2">
+                                <i class="bi bi-house-door"></i>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="subseccion medio">
+                        <h3 class="espacio">Educación</h3>
+                        <p>Ingeniería en sistemas<br><span>UTN</span></p>
+                        <p>Curso de programación<br><span>Full Stack</span></p>
+                    </div>
+                </article>
+            </section>
+
         </section>
-        <section>
+
+        <!--FINALIZA ESPACIO RESUMEN-->
+
+        <section id="proyectos">
             <h1>Proyectos</h1>
             <button>Repositorios</button>
             <img src="" alt="">
             <p>Para mirar el repositorio <a href="">Pulse aquí</a></p>
             <button></button>
         </section>
+
+        <!--FINALIZA ESPACIO PROYECTOS-->
+
         <Section>
             <h1>Experiencia</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis sequi nobis deleniti accusantium quo quos suscipit dignissimos optio culpa incidunt, at fugiat rerum inventore qui vel maxime similique commodi.</p>
             <img src="" alt="">
             <button>Casa</button>
         </Section>
+
+        <!--FINALIZA ESPACIO EXPERIENCIA-->
+
         <section>
             <h1>Contactame</h1>
             <img src="" alt="">
@@ -99,6 +134,9 @@
             <button>casa</button>
             <h1>Gracias por mirar</h1>
         </section>
+
+        <!--FINALIZA ESPACIO CONTACTAME-->
     </main>
+
 </body>
 </html>

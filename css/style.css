@@ -32,27 +32,170 @@ header{
     width: 150px;
     height: auto;
     border-radius: 15px;
+    transition: 0.7s;
+}
+.perfil img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
 }
 .perfil h2 {
     font-size: 36px;
+    text-align: center;
 }
 .perfil h4 {
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px 0 30px;
 }
 .perfil nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 .perfil nav a {
-    display: inline-block;
-    margin: 3%;
     padding: 10px 20px;
     border: 1px solid #fff;
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
-    transition: all 0.3 ease;
+    transition: all 0.5s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+}
+.perfil nav a:hover {
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+}
+.perfil .botones-arriba {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contratame {
+    display: flex;
+    cursor: pointer;
+}
+
+/* COMIENZA ESPACIO SOBRE MI*/
+
+#sobre-mi {
+    padding: 50px 20px;
+}
+#sobre-mi h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    transition: 0.5s;
+}
+#sobre-mi h1:hover{
+   font-size: 50px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    gap: 50px;
+}
+.info p{
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.info .foto-sobre-mi {
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.info .foto-sobre-mi:hover{
+    transform: scale(1.2);
+    box-shadow: 0 12px 16px rgba(255, 255, 255, 0.3);
+}
+.casa {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 3.5%;
+}
+
+/* COMIENZA ESPACIO RESUMEN*/
+
+#resumen {
+    padding: 50px 20px;
+    width: 90%;
+    margin: auto;
+}
+#resumen h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    transition: 0.5s;
+}
+.central{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display:grid
+}
+.seccion {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    flex: 1 1 30%;
+}
+.subseccion {
+    display: flex;
+    flex-direction: column;
+    flex: 1 ;
+}
+.subseccion.medio {
+    margin: 0 30px;
+    flex: 1;
+}
+.seccion h3 {
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+.espacio {
+    margin-top: 50px;
+}
+.seccion.lenguajes {
+    width: 72%;
+}
+.seccion.lenguajes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.icono{
+    width: 20px; 
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 7px 0;
+    white-space: nowrap;
+}
+
+p {
+    margin: 10px 30px;
+}
+
+span {
+    color: #a64bf4;
+    padding: 10px 20px;
+    display: block;
+}
+.casa2 {
+    position: relative;
+    top: 50px;
+    left: -30px
 }
