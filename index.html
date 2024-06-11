@@ -6,7 +6,6 @@
     <title>Portfolio Personal</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://kit.fontawesome.com/6f2cd78f0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="inicio">
@@ -14,8 +13,8 @@
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#resumen">Resumen</a>
-            <a href="">Experiencia</a>
-            <a href="">Contáctame</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contactame">Contáctame</a>
         </nav>
     </header>
     <main>
@@ -30,7 +29,7 @@
                         <a href="#proyectos">Proyectos</a>
                     </div>
                     <div class="contratame">
-                        <a>Contrátame</a>   
+                        <a href="#contactame">Contrátame</a>   
                     </div> 
                 </nav>
             </article>
@@ -105,34 +104,49 @@
 
         <section id="proyectos">
             <h1>Proyectos</h1>
-            <button>Repositorios</button>
-            <img src="" alt="">
-            <p>Para mirar el repositorio <a href="">Pulse aquí</a></p>
-            <button></button>
+            <button class="boton">Repositorios</button>
+            <article class="imagenes-proyecto">
+                <a  href="https://github.com/ivanzj0/image-based-web-project.git"><img src="img/whatweoffer.jpeg" alt=""></a>
+                <a  href="https://github.com/ivanzj0/Trabajo-Login.git"><img src="img/tripify.jpeg" alt=""></a>
+                <a href="https://github.com/ivanzj0/Portfolio.git"><img src="img/portfolio.jpeg" alt=""></a>
+            </article>
+            <p>Para mirar el perfil de github <a class="pulso" href="https://github.com/ivanzj0">Pulse aquí</a></p>
+            <a href="#inicio" class="casa">
+                <i class="bi bi-house-door"></i>
+            </a>
         </section>
 
         <!--FINALIZA ESPACIO PROYECTOS-->
 
-        <Section>
+        <Section id="experiencia">
             <h1>Experiencia</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis sequi nobis deleniti accusantium quo quos suscipit dignissimos optio culpa incidunt, at fugiat rerum inventore qui vel maxime similique commodi.</p>
-            <img src="" alt="">
-            <button>Casa</button>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis sequi nobis deleniti accusantium quo quos suscipit dignissimos optio culpa incidunt, at fugiat rerum inventore qui vel maxime similique commodi.</p>
+                <img src="img/programando.jpg" alt="">  
+            </article>
+            <a href="#inicio" class="casa">
+                <i class="bi bi-house-door"></i>
+            </a>
         </Section>
 
         <!--FINALIZA ESPACIO EXPERIENCIA-->
 
-        <section>
+        <section id="contactame">
             <h1>Contactame</h1>
-            <img src="" alt="">
-            <ul>
-                <li><img src="" alt=""> whatsapp</li>
-                <li><img src="" alt="">mail</li>
-                <li><img src="" alt="">instagram</li>
-                <li><img src="" alt="">github</li>
-            </ul>
-            <button>casa</button>
-            <h1>Gracias por mirar</h1>
+            <article>
+                <img class="imagen" src="img/contacto.png" alt="">
+                <nav>
+                    <li><a href="https://api.whatsapp.com/send?phone=542616809147&text=Hola%20Ivan,%0D%0A%0D%0A Te%20escribo%20por%20tu%20portfolio:%20[escribe%20aquí%20el%20motivo%20del%20mensaje].%0D%0A%0D%0ASaludos,%0D%0A[tu%20nombre]"><i class="bi bi-whatsapp"></i>  Whatsapp</a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanzirulnik1@gmail.com"><i class="bi bi-envelope-arrow-down-fill"></i>  
+                        Mail</a></li>
+                    <li><a href="https://www.instagram.com/ivan__zirulnik/"><i class="bi bi-instagram"></i>  Instagram</a></li>
+                    <li><a href="https://github.com/ivanzj0"><i class="bi bi-github"></i>  Github</a></li>
+                </nav>
+            </article>
+            <a href="#inicio" class="casa">
+                <i class="bi bi-house-door"></i>
+            </a>
+            <h2>Gracias por mirar</h2>
         </section>
 
         <!--FINALIZA ESPACIO CONTACTAME-->

@@ -82,7 +82,7 @@ header{
 /* COMIENZA ESPACIO SOBRE MI*/
 
 #sobre-mi {
-    padding: 50px 20px;
+    padding: 50px 55px;
 }
 #sobre-mi h1 {
     font-size: 35px;
@@ -119,7 +119,6 @@ header{
     display: block;
     width: 50px;
     height: 50px;
-    position: absolute;
     left: 3.5%;
 }
 
@@ -135,6 +134,9 @@ header{
     font-family: 'Times New Roman', Times, serif;
     padding: 15px;
     transition: 0.5s;
+}
+#resumen h1:hover {
+    font-size: 50px;
 }
 .central{
     flex-wrap: wrap;
@@ -198,4 +200,161 @@ span {
     position: relative;
     top: 50px;
     left: -30px
+}
+/* COMIENZO ESPACIO PROYECTOS*/
+#proyectos {
+    padding: 50px 20px;
+}
+#proyectos h1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    transition: 0.5s;
+}
+#proyectos h1:hover {
+    font-size: 50px;
+}
+#proyectos .boton {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    margin: 60px auto;
+    position: relative;
+    left: 200px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white; 
+    transition: background-color 0.5s ease, color 0.3s ease;
+}
+#proyectos .boton:hover {
+    background-color: rgb(83, 178, 191);
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid rgb(3, 67, 38);
+}
+.imagenes-proyecto {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagenes-proyecto img {
+    width: 95%; 
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.518);
+}
+.imagenes-proyecto a {
+    transition: 0.5s;
+    display: block;
+}
+.imagenes-proyecto a:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+#proyectos p {
+    margin-top: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 3%;
+}
+.pulso {
+    text-decoration: none;
+    color: #a64bf4;
+    transition: 0.3s;
+}
+.pulso:hover {
+    font-size: 25px;
+}
+#proyectos .casa {
+    margin-top: 20px;
+    display: block;
+}
+
+/*COMIENZO ESPACIO EXPERIENCIA*/
+#experiencia {
+    padding: 50px 20px;
+}
+#experiencia h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    transition: 0.5s;
+}
+#experiencia h1:hover {
+    font-size: 50px;
+}
+#experiencia article {
+    display: flex;
+}
+#experiencia p{
+    margin-left: 20px;
+}
+#experiencia img {
+    width: 40%; 
+    border-radius: 10px;
+    position: relative;
+    right: 0;
+    transition: right 0.5s ease;
+}
+#experiencia img:hover {
+    right: 20px;
+}
+
+/*COMIENZO ESPACIO CONTACTAME*/
+#contactame {
+    padding: 50px 20px;
+}
+#contactame h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    transition: 0.5s;
+}
+#contactame h1:hover {
+    font-size: 50px;
+}
+#contactame article {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#contactame .imagen {
+    position: relative;
+    width: 40%; 
+    padding-bottom: 50px;
+}
+#contactame li{
+    padding-bottom: 20px;
+    list-style: none;
+}
+#contactame a {
+    text-decoration: none;
+    font-size: 20px;
+}
+#proyectos .casa {
+    margin-top: 20px;
+    display: block;
+}
+.bi {
+    font-size: 25px;
+    padding-right: 15px;
+    transition: 0.3s;
+}
+.bi:hover {
+    font-size: 40px;
+}
+.bi.bi-whatsapp {
+    color: #49f170;
+}
+.bi.bi-envelope-arrow-down-fill {
+    color: rgb(5, 47, 211);
+}
+.bi.bi-instagram {
+    color: rgb(221, 42, 123);
+}
+#contactame h2 {
+   position: relative;
+   text-align: center;
+   padding: 80px;
+   font-size: 40px;
 }
