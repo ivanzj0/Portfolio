@@ -1,0 +1,77 @@
+@media (max-width: 760px) {
+    .perfil {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .perfil img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .perfil article {
+        text-align: center;
+    }
+
+    .perfil nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    #sobre-mi i {
+        padding-top: 50px;
+        display: block;
+    }
+    #experiencia i {
+        padding-top: 50px;
+        display: block; 
+    }
+    .perfil img {
+    background-image: url(../img/imagen_perfil.jpeg);
+    }
+}
+@media (max-width: 590px) {
+    .info {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .info .foto-sobre-mi {
+        display: none; 
+    }
+
+    .info p {
+        flex: 1; 
+        position: relative;
+        right: 20px;
+    }
+
+    /*ESPACIO DE RESUMEN*/
+    .seccion {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .indice {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .indice a {
+        margin: 5px 0; 
+    }
+    #proyectos .boton {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*ESPACIO EXPERIENCIAS*/
+    #experiencia img {
+        display: none;
+    }
+}
