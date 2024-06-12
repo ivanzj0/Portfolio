@@ -21,6 +21,9 @@ header{
     color: #ccc;
     font-size: 1.3rem;
 }
+.menu-icon {
+    display: none;
+}
 /* EMPIEZA PERFIL*/
 .perfil {
     padding: 50px 20px;
@@ -159,7 +162,6 @@ header{
     flex: 1 ;
 }
 .subseccion.medio {
-    margin: 0 30px;
     flex: 1;
 }
 .seccion h3 {
@@ -179,6 +181,11 @@ header{
 .icono{
     width: 20px; 
     margin-right: 10px;
+    transition: 0.5s;
+}
+.icono:hover {
+    transform: scale(1.4); 
+    transition: transform 0.3s ease;
 }
 ul {
     list-style-type: none;
@@ -199,9 +206,8 @@ span {
     display: block;
 }
 .casa2 {
-    position: relative;
-    top: 50px;
-    left: -30px
+    position: absolute;
+    margin-top: 10%;
 }
 /* COMIENZO ESPACIO PROYECTOS*/
 #proyectos {
@@ -222,12 +228,13 @@ span {
     padding: 10px 20px;
     margin: 60px auto;
     position: relative;
-    left: 200px;
     border: 1px solid white;
     border-radius: 12px;
     background-color: transparent;
     color: white; 
     transition: background-color 0.5s ease, color 0.3s ease;
+    display: block;
+    text-align: center;
 }
 #proyectos .boton:hover {
     background-color: rgb(83, 178, 191);
@@ -244,6 +251,7 @@ span {
     width: 95%; 
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.518);
+    transition: 0.5s;
 }
 .imagenes-proyecto a {
     transition: 0.5s;

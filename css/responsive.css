@@ -31,6 +31,7 @@
     .perfil img {
     background-image: url(../img/imagen_perfil.jpeg);
     }
+
 }
 @media (max-width: 590px) {
     .info {
@@ -47,11 +48,42 @@
         position: relative;
         right: 20px;
     }
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
 
+    .indice {
+        display: none;
+    }
     /*ESPACIO DE RESUMEN*/
     .seccion {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+       
+    }
+    .subseccion.medio.habilidades {
+        padding-top: 30px;
+    }
+    .subseccion.que-puedo-hacer {
+        padding-top: 30px;
+    }
+    .espacio {
+        margin-top: 0%;
+    }
+    .espacio.edu {
+        margin-top: 16%;
+    }
+    .subseccion ul {
+        margin: 2%;
+    }
+    .casa2 {
+        margin-top: 60%;
+    }
+    .imagenes-proyecto {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -66,12 +98,17 @@
     }
     #proyectos .boton {
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        transform: none;
     }
 
     /*ESPACIO EXPERIENCIAS*/
     #experiencia img {
         display: none;
+    }
+}
+@media (max-width:400px){
+    .casa2 {
+        margin-top: 80%;
     }
 }
