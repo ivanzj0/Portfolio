@@ -1,5 +1,9 @@
 PORTFOLIO PERSONAL IVAN ZIRULNIK
-Hola! acá tengo el trabajo que he realizado de portfolio. El portfolio en el que me basé es: (https://www.behance.net/gallery/183817203/Personal-Portfolio-Website-Design)
+Hola! acá tengo el trabajo que he realizado de portfolio. 
+El portfolio en el que me basé es: (https://www.behance.net/gallery/183817203/Personal-Portfolio-Website-Design)
+Una foto que lo muestra en header:
+![image](https://github.com/ivanzj0/Portfolio/assets/169104822/0a1a02aa-1d12-41c2-b18b-64d53f5081d7)
+
 
 Cómo se divide, y una imagen de cada espacio:
 Header
